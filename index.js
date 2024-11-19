@@ -7,9 +7,9 @@ let changePrices = [document.getElementById("procentBtc"),document.getElementByI
 
 
 let urls = [
-    "http://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT", 
-    "http://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT", 
-    "http://api.binance.com/api/v3/ticker/24hr?symbol=SOLUSDT"
+    "https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT", 
+    "https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT", 
+    "https://api.binance.com/api/v3/ticker/24hr?symbol=SOLUSDT"
 ];
 
 function fetchPrices() {
