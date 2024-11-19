@@ -155,6 +155,15 @@ body {
     border: none;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.BtnRegist:hover {
+    background-color: unset;
+    border: 1px solid white;
+    color: white;
+
 }
 
 .coins {
@@ -269,3 +278,4 @@ body {
  
     
 }
+
