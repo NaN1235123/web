@@ -438,13 +438,20 @@ body {
     
     .h1-regist {
         margin: 0;
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 20px;
+        text-align: center;
+        align-items: center;
     }
     .p1-regist {
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 20px;
+        text-align: center;
     }
+   .p-coins {
+    font-size: 32px;
+    text-align: center;
+   }
 
     .wrapper {
         margin: auto;
