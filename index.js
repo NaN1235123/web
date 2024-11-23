@@ -1,3 +1,10 @@
+document.querySelector(".burger").addEventListener("click", function() {
+    this.classList.toggle('active');
+    document.querySelector('.menu').classList.toggle('open');
+})
+
+
+
 let btcprice = document.getElementById("btcusdt");
 let ethprice = document.getElementById("ethusdt");
 let solanprice = document.getElementById("solanusdt");
