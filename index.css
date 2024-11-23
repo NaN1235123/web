@@ -491,6 +491,14 @@ body {
        
     }
 
+
+    .h1-regist {
+        margin: 0;
+        font-size: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+        align-items: center;
+    }
     .input-box input {
         width: 190px;
     }
