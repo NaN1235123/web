@@ -486,7 +486,7 @@ body {
 @media (max-width: 680px) {
     .wrapper {
         margin: auto;
-        width: 240px;
+        width: 260px;
         height: 290px;
        
     }
@@ -500,11 +500,11 @@ body {
         align-items: center;
     }
     .input-box input {
-        width: 240px;
+        width: 260px;
     }
 
     .BtnRegist {
-        width: 240px;
+        width: 260px;
         
         margin: 25px 0 0 0;
     }
