@@ -44,6 +44,9 @@ body {
     margin: 0 70px 0 0;
     list-style-type: none;
 }
+.list-item:last-child {
+    margin: 0;
+}
 
 
 .list-link {
@@ -134,12 +137,13 @@ body {
     background-color: black;
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1230px;
     margin: auto;
+    padding: 0 15px 0 15px;
 }
 .content-register {
-    width: 484px;
-
+    max-width: 100%;
+    align-items: center;
 }
 
 .h1-regist {
@@ -338,6 +342,7 @@ body {
         max-width: 970px;
 
     }
+    
 }
 
 @media (max-width:992.98px) {
@@ -446,11 +451,11 @@ body {
     .p1-regist {
         font-size: 20px;
         margin-bottom: 20px;
-        text-align: center;
+        
     }
    .p-coins {
     font-size: 32px;
-    text-align: center;
+   
    }
 
     .wrapper {
