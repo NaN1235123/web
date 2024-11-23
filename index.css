@@ -483,3 +483,21 @@ body {
    }
 }
 
+@media (max-width: 680px) {
+    .wrapper {
+        margin: auto;
+        width: 200px;
+        height: 200px;
+       
+    }
+
+    .input-box input {
+        width: 190px;
+    }
+
+    .BtnRegist {
+        width: 190px;
+        
+        margin: 25px 0 0 0;
+    }
+}
